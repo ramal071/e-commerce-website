@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 
-       <!-- boostrap js link -->
+    <!-- boostrap js link -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
-   <!-- CSS -->
-   <link rel="stylesheet" href="../style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
 
    <style>
     .admin_image{
@@ -60,7 +60,7 @@
                 </div>
                 <div class="button text-center">
                     <!-- button*10>a.nav-link.text-light.bg-info.my-1 -->
-                    <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert Products</a></button>
+                    <button class="my-3"><a href="insert_product.php" class="nav-link text-light bg-info my-1">Insert Products</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">View Products</a></button>
                     <button><a href="index.php?insert_category" class="nav-link text-light bg-info my-1">Insert Category</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">View Category</a></button>
@@ -75,7 +75,7 @@
         </div>
 
         <!-- fourth child -->
-        <div class="container my-5">
+        <div class="container my-3">
             <?php
             if(isset($_GET['insert_category'])){
                 include('insert_categories.php');
